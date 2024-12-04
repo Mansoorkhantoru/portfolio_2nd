@@ -1,0 +1,403 @@
+@media screen and (min-width:781px)
+{
+@keyframes mansoor {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    color:black;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    color: white;
+  }
+}
+
+.fade-in {
+  animation: mansoor 1s ease-in;
+  z-index: -20;
+  width: 600px;
+  margin: 150px 0 0 400px;
+  display: flex;
+  height: 300px;
+} 
+img{
+  margin-top: -60px;
+  margin-right: 100px;
+  border-radius: 20%;
+  filter: opacity(0.5);
+}
+#about{
+  width: 300px;
+  margin: 200px 0 0 400px;
+}
+body{
+  background-color:rgb(3, 1, 20);
+  color: white;
+}
+nav{
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+
+}
+.logo{
+  padding: 10px 20px 20px 85px ;
+  font-size: 38px;
+}
+.order-butto{
+  color: black;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+.order-butto:hover{
+  color: aquamarine;
+  background-color: black;
+  border-bottom: 2px solid gold;
+}
+.order-but{
+  margin-left: 500px;
+  margin-top: 25px;
+  z-index: 20;
+ 
+}
+.form-1{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px 0px 0 -170px ;
+  position: fixed;
+}
+.form-1 .X{
+  float: right;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+.form-1 .sub{
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.link{
+  margin-left: 70px;
+  margin-top: 25px;
+  display: flex;
+}
+a{
+  margin: 2px;
+  color: rgb(15, 34, 141);
+  transition: 0.1s ease-in;
+}
+.link a:hover{
+  color: white;
+}
+.con a:hover{
+  border-bottom: 2px solid aqua;
+}
+ul{
+  margin-top: 5px;
+  margin-left: -20px;
+  font-size: larger;
+
+}
+.con {
+  display: none;
+  position: fixed;
+}
+.con a {
+  display: inline-block;
+}
+.contact{
+  list-style-type: none;
+}
+.contact:hover .con{
+ display: block;
+}
+a{
+  text-decoration: none;
+  margin: 5px;
+  font-size: 20px;
+}
+.k{
+  color: aqua;
+}
+#skills{
+  margin: 50px 0 0 400px;
+}
+.ser{
+  margin: 100px 0 100px 300px;
+  overflow-x: auto;
+  width: 500px;
+  display: flex;         
+  white-space: nowrap;
+  padding-top: 60px;
+}
+.ser::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, Edge */
+}
+#services h1{
+  margin:150px 0 100px 400px;
+}
+.ser a{
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+}
+.ser a span{
+  margin-left: 5px;
+}
+hr{
+  width: 20px;
+  color: black;
+}
+.side_bar{
+  display: none;
+}
+.what img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 20px; 
+  right: -30px; 
+}
+}
+@media screen and (max-width:780px){
+ 
+
+@keyframes mansoor {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    color:black;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    color: white;
+  }
+}
+
+.fade-in {
+  animation: mansoor 1s ease-in;
+  z-index: -20;
+  width: 300px;
+  margin: 50px 0 0 25px;
+  display: flex;
+  height: 250px;
+  font-size: 35px;
+} 
+img{
+  margin-top: 130px;
+  margin-right: 100px;
+  border-radius: 20%;
+  filter: opacity(0.5);
+  height: 600px;
+  width: 200px;
+}
+#about{
+  width: 310px;
+  font-size: 30px;
+  margin: 700px 0 0 50px;
+}
+body{
+  background-color:rgb(3, 1, 20);
+  color: white;
+  z-index: -20;
+}
+nav{
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+
+}
+.logo{
+  padding: 10px 20px 20px 22px ;
+  font-size: 38px;
+}
+.order-butto{
+  color: black;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+  
+}
+.order-butto:hover{
+  color: aquamarine;
+  background-color: black;
+  border-bottom: 2px solid gold;
+}
+.order-but{
+  margin-left: 150px;
+  margin-top: 25px;
+  z-index: 20;
+ 
+}
+.form-1{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 30px;
+  padding-left: 50px;
+  font-size: 35px;
+  width: 300px;
+  margin: 50px 0px 0 -220px ;
+  position: fixed;
+}
+input{
+  font-size: 25px;
+}
+.form-1 .X{
+  float: right;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+}
+.form-1 .sub{
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.link{
+  margin-left: 70px;
+  margin-top: 25px;
+  display: none;
+}
+a{
+  margin: 2px;
+  color: rgb(15, 34, 141);
+  transition: 0.1s ease-in;
+}
+.link a:hover{
+  color: white;
+}
+li a:hover{
+  border-bottom: 2px solid aqua;
+}
+li{
+  margin-top: 6px;
+  margin-left: 4px;
+  font-size: larger;
+
+}
+.con {
+  display: none;
+  position: fixed;
+}
+.con a {
+  display: inline-block;
+}
+.contact{
+  list-style-type: none;
+  display: none;
+}
+
+a{
+  text-decoration: none;
+  margin: 5px;
+  font-size: 20px;
+}
+.k{
+  color: aqua;
+}
+#skills{
+  margin: 300px 0 0 100px;
+  font-size: 35px;
+}
+.ser{
+  margin: 10px 0 100px 150px;
+  overflow-x: auto;
+  width: 250px;  
+  display: flex;         
+  white-space: nowrap;
+  padding-top: 60px;
+}
+.ser::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, Edge */
+}
+#services h1{
+  margin:250px 0 -80px 100px;
+}
+.ser a{
+  display: inline-block;
+  width: 200px;
+  margin-left: 5px;
+}
+.ser a span{
+  margin-left: 100px;
+}
+.side_bar button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 10px;
+  margin: 18px 0 0 30px;
+}
+.linkk{
+  margin: 100px 0px 0px -315px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  padding-left: 550px;
+  padding-top: 20px;
+  z-index: 10;
+  height: 380px;
+  width: 200px;
+  background-color: transparent;
+ 
+
+}
+.linkk a {
+  display:block;
+  margin: 30px;
+  width: 80px;
+  border-bottom: 2px solid white;
+}
+.logoo span{
+  padding-top: 100px;
+  font-size: 60px;
+}
+.linkk .remo{
+  margin-top: -30px;
+  margin-left: 140px;
+  font-size: 30px;
+  position: fixed;
+}
+.conn{
+  display: none;
+}
+
+.contactt {
+  list-style-type: none;
+}
+
+.contactt:hover .conn{
+  display: block;
+}
+.lo{
+  font-size: 20px;
+}
+.lo k{
+  color: aqua;
+}
+.what img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 40px;
+  right: -80px;
+
+}
+}
